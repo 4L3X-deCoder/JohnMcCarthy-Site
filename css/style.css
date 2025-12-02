@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 1em;
+    font-family: "Rubik Wet Paint", system-ui;
+}
+
+body {
+    background-color: beige;
+} /*a=,b=,c=, специфичность=*/
+
+header {
+    background-color: aqua;
+    text-align: center;
+    padding: 20px 40px;
+}
+
+footer {
+    background-color: brown;
+    color: white;
+    padding: 20px 40px;
+}
+
+#about {
+    background-color: burlywood;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+#articles {
+    padding: 20px 40px;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px 40px;
+    font-size: 2rem;
+}
+
+h3 {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+p {
+    text-align: justify;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
+
+nav ul {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+a:link {
+    color: green;
+}
+a:visited {
+    color: darkgreen;
+}
+a:focus {
+    color: forestgreen;
+}
+
+a:hover {
+    color: forestgreen;
+}
+a:active {
+    color: greenyellow;
+}
+ol li:nth-child(odd) {
+    background-color: crimson;
+}
+
+ol.links li {
+    background-color: aqua;
+}
+
+dt {
+    font-size: 1.5rem;
+    font-style: obliques;
+}
+dd {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    margin-top: 0.5rem;
+}
+li {
+    margin-top: 1rem;
+    font-style: italic;
+}
+ img {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+ }
+
+.my-table {
+    border: solid 10px red;
+    border-collapse: collapse;
+}
+.my-table td, .my-table th {
+    border: solid 1px red;
+    padding: 10px 15px;
+}
+
+blockquote {
+    margin: 5px 10px;
+    border: ridge 3px brown;
+    padding: 10px 15px;
+}
+cite {
+    margin: 5px 5px;
+}
+p:first-line {
+    letter-spacing: 2px;
+    line-height: 3rem;
+}
+p:lang(en) {
+    font-style: italic;
+    color: cadetblue;
+}
+#about, #articles  {
+    color: blue;
+}
+footer img {
+    border: dashed 5px white;
+}
+p+i {
+    margin-left: 4rem;
+}
+#article4::after  {
+    content: "Важно!";
+    color: red;
+}
+
+/* .pink {}
+#logo {}
+#mainnav ul
+#mainnav .active
+#mainnav a:hover
+#mainnav ul li.active */
